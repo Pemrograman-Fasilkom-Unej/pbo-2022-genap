@@ -2,7 +2,7 @@
 
 namespace Pertemuan4
 {
-    class Person
+    class Person : Object
     {
         public string name;
         public int age;
@@ -35,11 +35,28 @@ namespace Pertemuan4
             {
                 this.age = this.age + amount;
             }
+            Console.WriteLine("overloading addAge in person class with int parameter");
         }
 
-        public void tes()
+        public void addAge()
+        {
+            Console.WriteLine("overloading addAge in person class");
+        }
+
+        public void addAge(int a, int b)
+        {
+            Console.WriteLine("overloading addAge in person class with 2 int parameters" + "  a: " + a + "  b: " + b);
+        }
+
+        //virtual : memperbolehkan child class nya unutk nge overriding method tersebut
+        public virtual void tes()
         {
             Console.WriteLine("tes method in parent class " + this.name);
+        }
+
+        public void tes2()
+        {
+            Console.WriteLine("tes2 method");
         }
 
 

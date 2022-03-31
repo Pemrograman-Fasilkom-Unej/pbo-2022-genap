@@ -32,6 +32,32 @@ namespace Pertemuan4
             Console.WriteLine(orang2.name);
 
 
+            //============overriding and overloading section====================
+            //overriding ==> nindes suatu method
+            //overloading ==> method dengan nama sama, tapi bisa beda perlakukan dan logic
+
+            //for i in range (2)
+            //for i in range (2,3)
+            //for i in range (1,12,3)
+            Console.WriteLine("\n \n ============overloading section==================== \n");
+            budi.addAge();
+            budi.addAge(10);
+            budi.addAge(10, 20);
+            amiroh.addAge("bla bla bla");
+
+            Console.WriteLine("\n \n ============overriding section==================== \n");
+            budi.tes();
+            amiroh.tes();
+
+            amiroh.tes2();
+
+            Console.WriteLine(budi);
+
+
+
+
+
+
         }
     }
 }

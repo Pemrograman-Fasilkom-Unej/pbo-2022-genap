@@ -11,6 +11,10 @@ namespace Pertemuan4
             this.salary = salaryInput;
         }
 
+        public override string ToString()
+        {
+            return (name + " " + " " + age);
+        }
 
     }
 }

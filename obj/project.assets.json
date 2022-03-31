@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\pemro\\PBO 2022\\pertemuan4\\pertemuan4.csproj",
+      "projectUniqueName": "D:\\pemro\\PBO 2022\\pbo-2022-genap\\pertemuan4.csproj",
       "projectName": "pertemuan4",
-      "projectPath": "D:\\pemro\\PBO 2022\\pertemuan4\\pertemuan4.csproj",
+      "projectPath": "D:\\pemro\\PBO 2022\\pbo-2022-genap\\pertemuan4.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\pemro\\PBO 2022\\pertemuan4\\obj\\",
+      "outputPath": "D:\\pemro\\PBO 2022\\pbo-2022-genap\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
